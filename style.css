@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.black-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    color: white;
+}
+
+.disclaimer-container {
+    text-align: center;
+}
+
+.disclaimer-container h2 {
+    font-size: 5rem;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.disclaimer-container p {
+    font-size: 1.1rem;
+    padding: 0 20rem;
+    letter-spacing: 1.5px;
+}
+
+.main-div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Bg2.jpg);
+    width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+}
+
+.inner-div {
+    width: 55vw;
+    background-color: #dfe6e9;
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    min-height: 300px;
+    margin: auto;
+}
+
+.inner-div h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+}
+
+input {
+    cursor: pointer;
+}
+
+.inner-div li {
+    list-style: none;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.answer {
+    accent-color: #004102;
+    height: 20px;
+    width: 20px;
+}
+
+#submit,
+.btn {
+    background-color: #55efc4;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    align-items: center;
+    margin: 50px auto 0px auto;
+    border: none;
+}
+
+#submit:hover,
+.btn:hover {
+    background-color: #00b894;
+    color: wheat;
+}
+
+#showScore {
+    background-color: #6c6c6c;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.scoreArea {
+    display: none;
+}
+
+h3 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+#timer {
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.custom-alert-container {
+    background-color: #dfe6e9;
+}
+
+.custom-alert-background {
+    background-color: #dfe6e9 !important;
+}
+.okinsta{
+    font-size: 2rem;
+}

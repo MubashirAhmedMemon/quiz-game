@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>The Quiz Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="black-screen" id="blackScreen">
+        <div class="disclaimer-container">
+            <h2>Disclaimer</h2>
+            <img src="icon.png" width="100">
+            <div class="disclaimer-container">
+                <p>
+                    "This quiz is intended for educational and entertainment purposes only. The information provided in
+                    this quiz may not be accurate or up-to-date. We do not guarantee the correctness of the answers. Use
+                    this quiz as a fun way to test your knowledge, but always consult authoritative sources or experts
+                    for accurate information. Each question in this quiz has a time limit of five seconds for answering.
+                    Once the time is up, the next question will be displayed. By participating in this quiz, you agree
+                    that we are not responsible for any consequences, including any loss or damages, that may arise from
+                    your use of the information provided in this quiz."</p>
+            </div>
+            <h4 class="okinsta">Each question in this quiz has a time limit of 5 seconds for answering.</h4>
+        </div>
+    </div>
+    <div class="main-div" id="quizDiv">
+        <div class="inner-div">
+            <h1 id="timer">Let's Ready</h1>
+            <h2 class="question">Question Is Here</h2>
+            <ul>
+                <!-- Your radio buttons and labels here -->
+                <!-- Your radio buttons and labels here -->
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer" value="">
+                    <label for="ans1" id="option1">Option1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer" value="">
+                    <label for="ans2" id="option2">Option2</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer" value="">
+                    <label for="ans3" id="option3">Option3</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer" value="">
+                    <label for="ans4" id="option4">Option4</label>
+                </li>
+            </ul>
+            <!-- ... (questions and answers) -->
+            </ul>
+            <button id="submit">Submit</button>
+            <div id="showScore" class="scoreArea"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script1.js"></script>
+</body>
+
+</html>
