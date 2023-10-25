@@ -240,7 +240,7 @@ var quizDB = [
         d: "64",
         ans: "ans3"
     }, {
-        question: "Q30: What is 49 / 7?",
+        question: "Q19: What is 49 / 7?",
         a: "5",
         b: "6",
         c: "7",
@@ -319,7 +319,7 @@ var hideBlackScreen = () => {
     startTimer();
 };
 
-setTimeout(hideBlackScreen, 8000);
+setTimeout(hideBlackScreen, 5000);
 
 submit.addEventListener('click', () => {
     clearInterval(countdownInterval);
