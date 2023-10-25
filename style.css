@@ -6,9 +6,12 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
+::selection{
+    background-color: #00b894;
+    color: #000;
+}
 .black-screen {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #000;
     display: flex;
@@ -29,6 +32,44 @@
     font-size: 5rem;
     color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media   (max-width: 600px) {
+    .inner-div {
+        padding: 30px !important;
+        width: 98% !important;
+        border-radius: 10px !important;
+        margin-top: 5px !important;
+    }
+    .disclaimer-container h2{
+        font-size: 3rem !important;
+    }
+    .inner-div h2 {
+        font-size: 1.5rem !important;
+        
+    }
+    .disclaimer-container p{
+        padding: 15px !important;
+        font-size: 12px !important;
+    }
+    .okinsta{
+        font-size: 1rem !important;
+    }
+    .main-div{
+        padding-top: 35% !important;
+    }
+    #timer{
+        font-size: 24px !important;
+    }
+    .inner-div li {
+        font-size: 12px !important;
+    }
+    .answer{
+        width: 10px !important;
+        height: 10px !important;
+        margin-top: 5px !important;
+    }
+    
 }
 
 .disclaimer-container p {
@@ -133,6 +174,10 @@ h3 {
 .custom-alert-background {
     background-color: #dfe6e9 !important;
 }
-.okinsta{
+
+.okinsta {
     font-size: 2rem;
+}
+.swal2-popup {
+    background-color: #dfe6e9 !important;
 }
